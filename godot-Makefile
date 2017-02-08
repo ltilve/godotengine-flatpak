@@ -1,0 +1,6 @@
+all:
+	scons
+
+install:
+	scons platform=x11 prefix=/app
+	cp -ra * /app/
