@@ -37,7 +37,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/godotengine/godot"
+                    "url": "https://github.com/godotengine/godot",
+                    "branch": "2.1-stable"
                 },
                 {
                     "type": "file",
