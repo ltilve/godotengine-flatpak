@@ -2,5 +2,5 @@ all:
 	scons
 
 install:
-	scons platform=x11 prefix=/app
+	scons platform=x11 prefix=/app CCFLAGS="-DGLEW_NO_GLU"
 	cp -ra * /app/
