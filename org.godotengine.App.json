@@ -11,6 +11,7 @@
         "--socket=wayland",
         "--filesystem=host",
         "--share=network",
+        "--device=dri",
         "--filesystem=xdg-run/dconf"
     ],
     "modules": [
