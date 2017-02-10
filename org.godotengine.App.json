@@ -1,8 +1,8 @@
 {
     "app-id": "org.godotengine.App",
-    "runtime": "org.gnome.Sdk",
-    "runtime-version": "3.22",
-    "sdk": "org.gnome.Sdk",
+    "runtime": "com.endlessm.Sdk",
+    "runtime-version": "master",
+    "sdk": "com.endlessm.Sdk",
     "command": "godot.x11.tools.64 -e",
      "finish-args": [
         "--allow=devel",
