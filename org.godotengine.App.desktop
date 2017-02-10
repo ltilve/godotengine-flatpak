@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Godot Engine
+GenericName=Free and open source 2D and 3D game engine
+Comment=Godot is an advanced, feature-packed, multi-platform 2D and 3D open source game engine
+Exec=godot
+Icon=org.godotengine.App
+Terminal=false
+Categories=Development;IDE;

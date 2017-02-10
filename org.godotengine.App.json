@@ -44,6 +44,21 @@
                     "type": "file",
                     "path": "godot-Makefile",
                     "dest-filename": "Makefile"
+                },
+                {
+                    "type": "file",
+                    "path": "org.godotengine.App.png",
+                    "dest-filename": "org.godotengine.App.png"
+                },
+                {
+                    "type": "file",
+                    "path": "org.godotengine.App.desktop",
+                    "dest-filename": "org.godotengine.App.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "org.godotengine.App.appdata.xml",
+                    "dest-filename": "org.godotengine.App.appdata.xml"
                 }
             ]
         }

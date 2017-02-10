@@ -4,3 +4,9 @@ all:
 install:
 	scons platform=x11 prefix=/app CCFLAGS="-DGLEW_NO_GLU"
 	cp -ra * /app/
+	mkdir -p /app/share/applications
+	cp org.godotengine.App.desktop /app/share/applications/
+	mkdir -p /app/share/icons/hicolor/128x128/apps/
+	cp org.godotengine.App.png /app/share/icons/hicolor/128x128/apps/
+	mkdir -p /app/share/appdata
+	cp org.godotengine.App.appdata.xml /app/share/appdata/
